@@ -57,7 +57,7 @@ public class RSA {
 		for(int j=0; j<b.size(); j++) {
 			actual.add(gc.getCourses().getWebAutomation().get(j).getCourseTitle());
 		}
-		List<String> expected = Arrays.asList(courseList);  //sourselist id Array, so converting to list.
+		List<String> expected = Arrays.asList(courseList);  //courselist id is Array, so converting to list.
 		
 		Assert.assertTrue(actual.equals(expected));
 	}
