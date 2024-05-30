@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="files.RSA">
+      <class name="Virsec.test">
         <methods>
-          <include name="token"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- files.RSA -->
+      </class> <!-- Virsec.test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
